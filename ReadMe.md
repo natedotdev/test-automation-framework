@@ -10,14 +10,14 @@
 
 ---
 
-### 🚀 Universal Test Framework — Write Once, Run Anywhere
+### Universal Test Framework: Write Once, Run Anywhere
 
 This project is a **modern, extensible Test Automation Framework** designed with a **tool-agnostic architecture**.  
-It allows you to **switch between Playwright, Selenium, Cypress**, or any other automation tool — **without changing your tests**.
+It allows you to **switch between Playwright, Selenium, Cypress**, or any other automation tool, **without changing your tests**.
 
 ---
 
-## 🧠 Core Concept
+## Core Concept
 
 At its heart, this framework follows a **Page Object Model (POM)** pattern, wrapped in a layer of **interfaces and adapters**.  
 This abstraction ensures your test logic remains the same regardless of the underlying tool or language.
@@ -27,7 +27,7 @@ Test → Page Objects → Interfaces → Adapters → Tool (Playwright / Seleniu
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 ```bash
 test-automation-framework/
 ├── src/
@@ -49,14 +49,14 @@ test-automation-framework/
 
 ---
 
-## 🧱 Key Features
+## Key Features
 
-- ✅ **Tool-Agnostic Design** — Swap Playwright, Selenium, or Cypress easily  
-- 🧩 **Page Object Model (POM)** — Maintainable and modular structure  
-- ⚙️ **TypeScript Support** — Full type safety and modern syntax  
-- 🧪 **Jest Test Runner** — Lightweight and powerful testing framework  
+- ✅ **Tool-Agnostic Design**: Swap Playwright, Selenium, or Cypress easily  
+- 🧩 **Page Object Model (POM)**: Maintainable and modular structure  
+- ⚙️ **TypeScript Support**: Full type safety and modern syntax  
+- 🧪 **Jest Test Runner**: Lightweight and powerful testing framework  
 - 📸 **Screenshot & Reporting Ready**  
-- 🧹 **Prettier + ESLint** — Clean, consistent code style  
+- 🧹 **Prettier + ESLint**: Clean, consistent code style  
 
 ---
 
@@ -106,5 +106,5 @@ src/core/adapters/
 
 <i>Each adapter implements the same interfaces, so tests never change, only the adapter layer does.</i>
 
-# 📸 Screenshots & Reports
+# Screenshots & Reports
  📷 Coming soon: test run screenshots and generated reports will be introduced.
