@@ -104,7 +104,7 @@ src/core/adapters/
 └── CypressAdapter.ts
 ```
 
-# <i>Each adapter implements the same interfaces, so tests never change — only the adapter layer does.</i>
+<i>Each adapter implements the same interfaces, so tests never change, only the adapter layer does.</i>
 
 # 📸 Screenshots & Reports
- 📷 Coming soon — test run screenshots and generated reports will be shown here.
+ 📷 Coming soon: test run screenshots and generated reports will be introduced.
