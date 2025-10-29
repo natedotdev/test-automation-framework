@@ -28,7 +28,7 @@ Test → Page Objects → Interfaces → Adapters → Tool (Playwright / Seleniu
 ---
 
 ## 🏗️ Architecture Overview
-
+```bash
 test-automation-framework/
 ├── src/
 │ ├── core/
@@ -43,6 +43,7 @@ test-automation-framework/
 ├── jest.config.js # Jest configuration
 ├── tsconfig.json # TypeScript configuration
 └── package.json
+```
 
 
 
@@ -95,12 +96,13 @@ npm test
 
 
 ## Extending the Framework
-
+```bash
 New adapters to support different tools:
 src/core/adapters/
 ├── PlaywrightAdapter.ts
 ├── SeleniumAdapter.ts
 └── CypressAdapter.ts
+```
 
 # <i>Each adapter implements the same interfaces, so tests never change — only the adapter layer does.</i>
 
