@@ -106,5 +106,6 @@ src/core/adapters/
 
 <i>Each adapter implements the same interfaces, so tests never change, only the adapter layer does.</i>
 
-# Screenshots & Reports
- 📷 Coming soon: test run screenshots and generated reports will be introduced.
+## Screenshots & Reports
+ initial test run (Jest + Playwright)
+ ![Test Results](./screenshots/test-results.png)
